@@ -9,7 +9,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
-  base: './',
+  base: '/',
   build: {
     target: 'es2015',
     outDir: 'dist',
